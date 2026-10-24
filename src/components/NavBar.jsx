@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        🎬 Movie Explo
+        Movie Explo
       </Link>
       <div className="navbar-links">
         <NavLink to="/" end className="nav-link">
