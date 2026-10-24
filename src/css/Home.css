@@ -1,0 +1,59 @@
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #16161d;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #c20812;
+}
+
+/* Cuadrícula de tarjetas (la usan Home y Favorites) */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.status-message {
+  text-align: center;
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  color: #ff6b6b;
+}
+
+.loading {
+  text-align: center;
+  color: #aaa;
+}
+
+@media (max-width: 480px) {
+  .movies-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
