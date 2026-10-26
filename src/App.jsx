@@ -8,7 +8,6 @@ import Favorites from './pages/Favorites.jsx'
 
 function App() {
   return (
-    // Todo lo que está dentro puede usar useMovieContext()
     <MovieProvider>
       <NavBar />
       <main className="main-content">

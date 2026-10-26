@@ -11,7 +11,7 @@ export const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 // Home.jsx captura ese error y lo muestra al usuario.
 async function fetchFromTMDB(endpoint, params = {}) {
   if (!API_KEY) {
-    throw new Error('Falta la API Key. Añade VITE_TMDB_API_KEY en el archivo .env')
+    throw new Error('Falta la API Key. Añade VITE_TMDB_API_KEY en el .env')
   }
 
   const query = new URLSearchParams({ api_key: API_KEY, language: 'es-ES', ...params })

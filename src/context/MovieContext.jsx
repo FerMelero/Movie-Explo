@@ -20,7 +20,7 @@ export function MovieProvider({ children }) {
   // Indica que ya hemos leído localStorage; evita sobrescribirlo con [] al arrancar
   const [loaded, setLoaded] = useState(false)
 
-  // useEffect (1): al iniciar la app, cargar los favoritos guardados en localStorage
+  // useEffect 1: al iniciar la app, cargar los favoritos guardados en localStorage
   useEffect(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY)
@@ -31,7 +31,7 @@ export function MovieProvider({ children }) {
     setLoaded(true)
   }, [])
 
-  // useEffect (2): guardar en localStorage cada vez que cambian los favoritos
+  // useEffect 2: guardar en localStorage cada vez que cambian los favoritos
   useEffect(() => {
     if (loaded) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(favorites))

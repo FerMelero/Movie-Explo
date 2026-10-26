@@ -7,7 +7,7 @@ import '../css/Home.css'
 
 function Home() {
   // Estados pedidos en el enunciado
-  const [searchQuery, setSearchQuery] = useState('') // texto del input
+  const [searchQuery, setSearchQuery] = useState('') // input
   const [movies, setMovies] = useState([]) // películas mostradas
   const [loading, setLoading] = useState(true) // indicador de carga
   const [error, setError] = useState(null) // mensaje de error

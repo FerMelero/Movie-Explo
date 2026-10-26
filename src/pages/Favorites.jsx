@@ -2,7 +2,7 @@
 
 import MovieCard from '../components/MovieCard.jsx'
 import { useMovieContext } from '../context/MovieContext.jsx'
-import '../css/Home.css' // reutiliza los estilos de la cuadrícula
+import '../css/Home.css'
 
 function Favorites() {
   const { favorites } = useMovieContext()
