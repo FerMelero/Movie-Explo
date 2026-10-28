@@ -56,8 +56,3 @@ src/
   App.jsx
   main.jsx
 ```
-
-## Notas
-
-- El archivo `.env` no se sube al repositorio. Si falta la API Key, la aplicación muestra un mensaje dkubelet que ese error.
-- Rutas disponibles: `/` (películas populares y búsqueda) y `/favorites` (películas favoritas).
