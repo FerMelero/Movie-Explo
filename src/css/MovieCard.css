@@ -1,5 +1,5 @@
 .movie-card {
-  background-color: #16161d;
+  background-color: #334155;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s;
@@ -12,7 +12,7 @@
 .movie-poster {
   position: relative;
   aspect-ratio: 2 / 3;
-  background-color: #222;
+  background-color: #475569;
 }
 
 .movie-poster img {
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #888;
+  color: #cbd5e1;
 }
 
 /* Overlay oculto por defecto; aparece al hacer hover sobre el póster */
@@ -70,7 +70,7 @@
 
 /* Corazón activo (película en favoritos) */
 .favorite-btn.active {
-  color: #e50914;
+  color: #f472b6;
 }
 
 .movie-info {
@@ -84,6 +84,6 @@
 
 .movie-info p {
   margin: 0;
-  color: #999;
+  color: #cbd5e1;
   font-size: 0.875rem;
 }

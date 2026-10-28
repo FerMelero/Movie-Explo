@@ -10,7 +10,7 @@
   justify-content: space-between;
   gap: 0.5rem 1rem;
   padding: 1rem 2rem;
-  background-color: #111;
+  background-color: #0f172a;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -29,18 +29,18 @@
 .nav-link {
   padding: 0.5rem 1rem;
   border-radius: 4px;
-  color: #ccc;
+  color: #cbd5e1;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .nav-link:hover {
-  background-color: #333;
+  background-color: #334155;
   color: #fff;
 }
 
 .nav-link.active {
-  background-color: #e50914;
+  background-color: #6366f1;
   color: #fff;
 }
 
