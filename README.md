@@ -44,14 +44,6 @@ Aplicación web hecha con React que consume la API de The Movie Database (TMDB).
 
 6. Abrir en el navegador la dirección que indica la terminal, normalmente http://localhost:5173
 
-## Otros comandos
-
-| Comando | Descripción |
-|---|---|
-| `npm run build` | Genera la versión de producción en la carpeta `dist` |
-| `npm run preview` | Sirve en local la versión de producción |
-| `npm run lint` | Revisa el código con oxlint |
-
 ## Estructura del proyecto
 
 ```
@@ -67,5 +59,5 @@ src/
 
 ## Notas
 
-- El archivo `.env` no se sube al repositorio. Si falta la API Key, la aplicación muestra un mensaje de error.
+- El archivo `.env` no se sube al repositorio. Si falta la API Key, la aplicación muestra un mensaje dkubelet que ese error.
 - Rutas disponibles: `/` (películas populares y búsqueda) y `/favorites` (películas favoritas).
